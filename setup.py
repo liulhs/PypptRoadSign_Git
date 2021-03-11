@@ -9,7 +9,7 @@ setup(
     author='Haosong Liu',
     author_email='haosongliuofficial@gmail.com',
     url='https://github.com/liulhs/PypptRoadSign_Git',
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url='https://github.com/liulhs/PypptRoadSign_Git/archive/v_0.1.tar.gz',
     keywords=['Roadsign', 'PowerPoint', 'Genertor'],
     install_requires=[
         'python-pptx'
