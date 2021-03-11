@@ -1,12 +1,7 @@
 from pptx import Presentation
-# from pptx.shapes.autoshape import Shape
 from pptx.dml.color import RGBColor
-# from pptx.enum.shapes import MSO_SHAPE
 from pptx.util import Inches
 from PypptRoadSign.background import Background
-
-# from pptx.util import Pt
-# from pptx.enum.text import PP_ALIGN
 
 BLACK = RGBColor(0, 0, 0)  # 黑色
 WHITE = RGBColor(255, 255, 255)  # 白色

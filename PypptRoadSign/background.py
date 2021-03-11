@@ -7,11 +7,6 @@ from pptx.util import Pt
 from pptx.enum.text import PP_ALIGN
 import json
 
-BLACK = RGBColor(0, 0, 0)  # 黑色
-WHITE = RGBColor(255, 255, 255)  # 白色
-NAVYBLUE = RGBColor(0, 63, 143)  # 预定的蓝色
-ROUND_DEGREE = 0.05  # 圆角程度调整 0-1
-
 
 
 class Background:
