@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='PypptRoadSign',
     packages=['PypptRoadSign'],
-    version='0.0.1',
+    version='0.0.1.1',
     license='MIT',
     description=' QXWZ Power Point Road Sign Project',
     author='Haosong Liu',
