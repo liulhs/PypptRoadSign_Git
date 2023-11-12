@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PypptRoadSign
+Version: 0.1.1
+Summary:  QXWZ Power Point Road Sign Project
+Home-page: https://github.com/liulhs/PypptRoadSign_Git
+Author: Haosong Liu
+Author-email: haosongliuofficial@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/liulhs/PypptRoadSign_Git/issues
+Keywords: Roadsign,PowerPoint,Genertor
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PypptRoadSign
+
+ QXWZ Power Point Road Sign Project
+
+# Very Basic Usage
+from PypptRoadSign.sign import Sign
+
+test_sign = Sign(background_style='default',width=16,height=9)
+
+test_sign.background.draw()
+
+test_sign.output('output.pptx')
